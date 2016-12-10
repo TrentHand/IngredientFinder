@@ -23,7 +23,7 @@ app.controller('NavCtrl', function($scope){
 		{
 			name: 'View My Locations',
 			url: '#/viewuserlocations'
-		},
+		}
 
 	];
 });

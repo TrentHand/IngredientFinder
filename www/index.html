@@ -29,7 +29,9 @@
     <script src="lib/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
     <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
     <!-- cordova script (this will be a 404 during development) -->
+    <script src="lib/ngCordova/dist/ng-cordova.min.js"></script>
     <script src="cordova.js"></script>
 
 
@@ -41,6 +43,7 @@
         <h1 class="title">Ingredient Finder</h1>
       </ion-header-bar>
       <ion-content>
+        <div ng-include="partials/Nav.html"></div>
       </ion-content>
 
 
